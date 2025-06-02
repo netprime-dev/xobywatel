@@ -3,7 +3,7 @@ name: Build APK
 on:
   push:
     branches:
-      - main # lub inna gałąź, którą chcesz obserwować
+      - master # lub inna gałąź, którą chcesz obserwować
   pull_request:
 
 jobs:
