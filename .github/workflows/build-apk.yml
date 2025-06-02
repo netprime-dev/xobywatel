@@ -34,7 +34,7 @@ jobs:
         run: ./gradlew assembleDebug
 
       - name: Upload APK artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@8e39e16346646a6b9fa49a09c18f1358f162a051
         with:
           name: xobywatel-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
